@@ -52,8 +52,8 @@ img {
   vertical-align: middle;
 }
 
-h1 {
-  float: right;
+p, h1 {
+  text-align: right;
 
 }
 
