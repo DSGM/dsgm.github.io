@@ -11,8 +11,8 @@
   text-decoration: none; /* Remove underline from links */
 }
 
-.menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
+.menu a:hover { /* Dark grey background on mouse-over */
+  background-color: #ccc;
 }
 
 .menu a.active { /* Add a green color to the "active/current" link */
@@ -28,16 +28,6 @@
 
 }
 
-.button {
-  background-color: grey;
-  border: none;
-  font-family: 'Codystar', cursive;
-  color: lightblue;
-  text-shadow: 5px 5px 7px #000000;
-  font-weight: bold;
-  padding: 0;
-}
-
 body {
   background-color: gray; /* Background color for the entire site */
   font-family: 'Codystar'; /* The font used */
@@ -48,22 +38,43 @@ body {
 
 /*Text or image specific styling*/
 
-img {
+img { /* Menu images size and placement */
   height: 30px;
   vertical-align: middle;
 }
 
 p, h1 {
   text-align: right; /* Aligning the main site text to the right */
-
-}
-
-.iframe {
-    border: 5px outset red;
 }
 
 a {
   font-size: 30px; /* Main menu font size */
+}
+
+.iframe { /* Centering the blender video */
+  /*border: 5px outset red;*/
+  width: 1280px;
+  margin: auto;
+  padding: 10px;
+}
+
+.copyright { /* Making the copyright text to stick to the video */
+  margin-top: 0px;
+}
+
+.youtubelink { /* Have the Copyright link blend with the white text */
+  font-size: 16px;
+  color: white;
+}
+
+.button { /* Readmore button project page blending in */
+  background-color: grey;
+  border: none;
+  font-family: 'Codystar', cursive;
+  color: lightblue;
+  text-shadow: 5px 5px 7px #000000;
+  font-weight: bold;
+  padding: 0;
 }
 
 #more { /* More button background */
